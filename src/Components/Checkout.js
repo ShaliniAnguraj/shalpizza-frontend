@@ -32,7 +32,7 @@ export default function Checkout({ subtotal }) {
         stripeKey="pk_test_51MooiFSHPG48nSV9oHtGi2DY3g7xDMdtNonoPDahWzqdPLfSquJRbiWwqlrg5OWmvGHWC2jCFFXtcie3jgNhrFXM007Uc237Rs"
         currency="INR"
       >
-      <button className=" bg-red-500 rounded text-white px-4 py-3"> checkout </button>
+      <button className=" bg-red-500 hover:bg-red-700 hover:border-red-900 rounded text-white hover:text-stone-300 px-4 py-3"> checkout </button>
 
       </StripeCheckout>
     </div>

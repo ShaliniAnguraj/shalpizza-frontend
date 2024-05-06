@@ -18,15 +18,6 @@ code {
 }
 
 
-.primary-color5{
-
-  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-  
-  -webkit-background-clip: text;
-  color: transparent;
-
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

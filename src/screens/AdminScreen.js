@@ -21,7 +21,7 @@ export default function AdminScreen() {
       <div className="grid-col-1 sm:grid md:grid-cols-2 px-8 mb-24 mt-12 py-18">
         <button>
           <Link
-            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center mb-12 dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700"
+            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center mb-12 bg-red-500 hover:bg-red-700 focus:ring-red-700"
             to="/admin/userslist"
           >
             
@@ -31,7 +31,7 @@ export default function AdminScreen() {
 
         <button>
           <Link
-            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700"
+            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center bg-red-500 hover:bg-red-700 focus:ring-red-700"
             to="/admin/pizzaslist"
           >
             
@@ -43,7 +43,7 @@ export default function AdminScreen() {
       <div className="grid-col-1 sm:grid md:grid-cols-2 px-8 mb-24">
         <button>
           <Link
-            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center mb-12 dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700"
+            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center mb-12 bg-red-500 hover:bg-red-700 focus:ring-red-700"
             to="/admin/addpizza"
           >
             {" "}
@@ -53,7 +53,7 @@ export default function AdminScreen() {
 
         <button>
           <Link
-            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700"
+            className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-2xl px-8 py-4 text-center bg-red-500 hover:bg-red-700 focus:ring-red-700"
             to="/admin/orderslist"
           >
             {" "}
@@ -61,26 +61,6 @@ export default function AdminScreen() {
           </Link>
         </button>
       </div>
-      
-
-      {/*<ul className="adminfunctions">
-          <li>
-            <Link className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700" to="/admin/userslist"> Users List </Link>
-          </li>
-
-          <li>
-            <Link className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700" to="/admin/userslist"> Users List </Link>
-          </li>
-
-          <li>
-            <Link className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700" to="/admin/userslist"> Users List </Link>
-          </li>
-
-          <li>
-            <Link className="text-white m-3 focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-5 py-2.5 text-center dark:bg-red-500 dark:hover:bg-red-700 dark:focus:ring-red-700" to="/admin/userslist"> Users List </Link>
-          </li>
-
-        </ul> */}
     </div>
   );
 }

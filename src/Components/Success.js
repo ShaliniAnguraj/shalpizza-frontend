@@ -4,7 +4,7 @@ const Success = ( { success }) => {
   return (
     <>
       <div
-        className="flex items-center justify-center p-2 mb-4 text-sm text-white border border-green-600 rounded-lg bg-green-50 dark:bg-green-500 dark:text-white dark:border-green-400"
+        className="flex items-center justify-center p-2 mb-4 text-sm text-white border border-green-600 rounded-lg bg-green-500 dark:bg-green-500 dark:text-white dark:border-green-400"
         role="alert"
       >
         <svg
@@ -18,7 +18,7 @@ const Success = ( { success }) => {
         </svg>
         <span className="sr-only">Info</span>
         <div>
-          <span className="font-bold text-xl">{success}</span>
+          <span className="font-bold text-xl text-white">{success}</span>
         </div>
       </div>
     </>
